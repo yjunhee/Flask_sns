@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="/static/css/style_login.css" />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <h2>Login</h2>
+      <form method="post" action="/users/update_username" id="login-form", >
+          <input type="text" name="id" placeholder="Id">
+          <input type="password" name="userPassword" placeholder="Password">
+          <p></p>
+          <label for="remember-check">
+              <input type="checkbox" id="remember-check">아이디 저장하기
+          </label>
+          <input type="submit" value="Login">
+      </form>
+  </div>
+  </body>
+</html>

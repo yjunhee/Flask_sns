@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 8px 12px;
+    height: 50px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .navbar__logo a{
+    color: blue;
+  }
+
+  .navbar__menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    border: 5px solid white ;
+  }
+
+  .navbar__menu li {
+    padding: 8px 30px;
+  }

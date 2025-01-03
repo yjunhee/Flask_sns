@@ -1,10 +1,14 @@
 
 .block {
     display: block;  
-    background-color: #4CAF50;
+    background-color: #01ff09;
     color: white;
+    font-size: 28pt;
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px;
+    width: 100pt;
+    height: 50pt;  
     text-align: center;
     border-radius: 5px;
+    border: 5pt solid black;
 }

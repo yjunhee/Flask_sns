@@ -4,31 +4,45 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href="static/css/style_home.css">
+  <link rel="stylesheet" href="static/css/style_navbar.css">
   <script type="text/javascript" src="static/js/index.js"></script>
 </head>
 <body>
-  <h1>Home</h1>
-  
+
+  <nav class="navbar">
+
+    <div class="navbar__logo">
+      <i class="fas fa-blog"></i>
+      <a href="home.html">Home</a>
+    </div>  
+
+    <ul class="navbar__menu">
+      <li><a href="/home/login">Login</a></li>
+      <li><a href="/home/blockpage">Block</a></li>
+      <li><a href="/home/pages">게시판</a></li>
+    </ul>
+  </nav>
+
+  <div class="block" >
+    Home
+  </div>
   <a>
     url모음
   </a>
   <p>
     <span style="color: red;">빨간색</span> 여긴 아니야 <tr>
   </p>
+  <div class="buttongroup">
   <p>
-    <input type="button" onclick="hello()" value="Hello">
-  </p>
-  
-  <p>
+    <input type="button" onclick="hello()" value="Hello" >    
     <input type="button" name="login" value="login" onclick="location.href='/home/login'">
   </p>
   
   <p>
     <input type="button" name="게시판" value="게시판" onclick="location.href='/home/pages'">
-  </p>
-  <p>
     <input type="button" name="블록 페이지" value="블록" onclick="location.href='/home/blockpage'">
   </p>
+  </div>
   <img src="/templates/image/cat1.jpg" width="200pt" height="200pt">
 </body>
 </html>

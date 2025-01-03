@@ -10,3 +10,27 @@ a {
     text-align: start;
     font-size: 32pt;
 }
+
+.block {
+    display: block;
+    color: black;
+    background-color: skyblue;
+    font-size: 30pt;
+    border: 3pt solid black;
+    width: 150pt;
+    height: 30pt;
+    padding: 10pt;
+    margin: 10pt;
+    text-align: center;
+}
+
+.buttongroup{
+    display: block;
+    border: 5pt solid black;
+    background-color: aqua;
+    width: 100pt;
+    height: 80pt;
+    padding: 10pt;
+    margin: 10pt;
+    text-align: center;
+}

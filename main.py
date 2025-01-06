@@ -7,7 +7,7 @@ app.register_blueprint(home.hm)
 app.register_blueprint(users.user)
 
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('home.html')
 

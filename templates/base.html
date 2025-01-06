@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/style_navbar.css">
+    </head>
+    <body>
+        <script src="/static/js/navbar.js"></script>
+        <nav class="navbar">
+
+            <div class="navbar__logo">
+              <i class="fas fa-blog"></i>
+              <a href="/home">Home</a>
+            </div>  
+        
+            <ul class="navbar__menu">
+              <li><a href="/home/login">Login</a></li>
+              <li><a href="/home/pages">Feed</a></li>
+              <li><a href="/home/blockpage">MY</a></li>
+            </ul>
+          </nav>
+
+          <div>
+
+            {% block content %}
+ 
+            {% endblock %}
+        </div>
+    </body>
+
+</html>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <link rel="stylesheet" href="static/css/style_home.css">
-    <script type="text/javascript" src="static/js/index.js"></script>
-    <meta charset="utf-8">
     <title>게시판</title>
   </head>
   <body>
+    {%extends "base.html"%}
+
+    {% block content %}
+
     <h1>
      게시판
     </h1>
@@ -16,6 +17,6 @@
     <div class="block">
       블록
     </div>
-
+    {% endblock %}
   </body>
 </html>

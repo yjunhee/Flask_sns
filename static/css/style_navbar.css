@@ -2,30 +2,49 @@ body{
     margin: 0;
 }
 .navbar {
+    margin: 10pt;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: white;
+    border-radius: 30px 10px 50px;
     padding: 8px 12px;
     height: 50px;
+    border: 2pt solid black;
   }
 
   a{
     text-decoration: none;
     color: black;
+    font-size: 30pt;
   }
   .navbar__logo a{
-    color: blue;
+    color: black;
+    font-weight: bold;
   }
 
   .navbar__menu {
     list-style: none;
     display: flex;
     margin: 0;
-    padding-left: 0;
-    border: 5px solid white ;
+    padding: 0;
   }
 
   .navbar__menu li {
     padding: 8px 30px;
   }
+
+  .navbar__menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar__menu a:hover {
+    color: yellow;
+}
+
+.navbar__menu a.active {
+    color: yellow;
+}

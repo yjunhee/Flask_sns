@@ -22,6 +22,9 @@
     }
 </style>
 <body>
+    {%extends "base.html"%}
+
+    {% block content %}
     <a>
         <span style="color:red; font-weight: bold; font-size: 32pt;"> 블록 </span>
     </a>
@@ -31,5 +34,6 @@
     <div class="block">
         css블록
     </div>
+    {% endblock %}
   </body>
 </html>

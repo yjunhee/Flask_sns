@@ -1,6 +1,7 @@
 # Flask_sns
 
-# 2학년 겨울방학 프로젝트
+2학년 겨울방학 프로젝트
+
 # 목표
 사용 스택: html css js python-flask 
 

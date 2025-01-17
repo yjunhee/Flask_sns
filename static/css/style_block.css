@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
 .block {
     display: block;  
     background-color: #01ff09;

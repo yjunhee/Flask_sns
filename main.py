@@ -1,18 +1,16 @@
 from flask import Flask, render_template
-import blue, home, users
+import home, users
 
 app = Flask(__name__)
-app.register_blueprint(blue.bp)
-app.register_blueprint(home.hm)
-app.register_blueprint(users.user)
+
+app.register_blueprint(home.hm, url_prefix='/home')
+app.register_blueprint(users.user, url_prefix='/users')
 
 
 @app.route('/')
-def home():
+def main():
     return render_template('home.html')
 
 
-
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5500)

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="/static/css/style_feed.css">
     <title>게시판</title>
   </head>
   <body>
@@ -11,11 +12,10 @@
     <h1>
      게시판
     </h1>
-    <p>
-      <input type= "textarea" name="text_input">
-    </p>
-    <div class="block">
-      블록
+    <div class="q_box">
+      <form method="post" id="feed-form">
+        <input type="textarea" name="Id" placeholder="대화내용" class="input-text">
+    </form>
     </div>
     {% endblock %}
   </body>

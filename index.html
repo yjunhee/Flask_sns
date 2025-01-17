@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head> 
-  <title>Home</title>
-  <link rel="stylesheet" href="static/css/style_home.css">
-</head>
-<body>
-  {%extends "base.html"%}
+    <head>
+        <link rel="stylesheet" href="/static/css/style_navbar.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <script src="/static/js/navbar.js"></script>
+        <nav class="navbar">
 
-  {% block content %}
+            <div class="navbar_logo">
+              <i class="fas fa-blog"></i>
+              <a href="/">Home</a>
+            </div>  
+        
+            <ul class="navbar_menu">
+              <li><a href="/home/login">Login</a></li>
+              <li><a href="/home/pages">Feed</a></li>
+              <li><a href="/home/blockpage">MY</a></li>
+            </ul>
+          </nav>
 
-  <p>
-    기본 홈페이지 입니다.
-  </p>
+          <div>
+            {% block content %}
+            <p>
+                기본홈페이지 입니다.
+            </p>
+            {% endblock %}
+        </div>
+    </body>
 
-  {% endblock %}
-</body>
 </html>

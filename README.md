@@ -14,3 +14,6 @@
 게시판기능(등록, 수정, 삭제, 사진삽입, 추천, 댓글) 
 
 회원 개인페이지
+
+#현재 상황
+https://yjunhee.github.io/Flask_sns/
